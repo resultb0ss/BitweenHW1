@@ -1,3 +1,6 @@
 fun main() {
-    println("Hello World!")
+    val array: List<String> = arrayListOf("one","two","three","four","five")
+    val newArray: List<String> = array.map { it.reversed() }
+    println(newArray)
+
 }
